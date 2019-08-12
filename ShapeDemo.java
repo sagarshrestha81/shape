@@ -13,8 +13,8 @@ class Work extends JComponent {
 		   g.fillOval(120, 30, 160, 160);
 
 		g.setColor(Color.BLACK);
-	    g.fillOval (150, 70, 30, 30);  
-	    g.fillOval (210, 70, 30, 30);
+	    g.fillRect (150, 70, 30, 30);  
+	    g.fillRect (210, 70, 30, 30);
 	    g.drawArc(145, 90, 100, 70, 175, 185);
    
 	
